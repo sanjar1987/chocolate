@@ -5,8 +5,8 @@
     --rob400: 'Roboto-Regular';
     --text: #222222;
     --textgrey: #777777;
-    --blue: #2F80ED;
-    --darkblue: #2961AC;
+    --blue: #C11E59;
+    --darkblue: #C11E59;
 }
 
 body {
@@ -169,7 +169,7 @@ p {
 
 .dots:active {
     transform: scale(1.2);
-    border: 3px solid #2F80ED;
+    border: 3px solid #C11E59;
     background-color: white;
 }
 
@@ -405,7 +405,7 @@ p {
 .form-control {
     max-width: 369px;
     height: 63px;
-    border: 2px solid #2F80ED !important;
+    border: 2px solid var(--blue) !important;
     color: var(--blue) !important;
     font-family: var(--mon400);
     font-size: 20px;
