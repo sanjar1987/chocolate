@@ -57,6 +57,8 @@ p {
 .blue {
     height: 970px;
     width: 50%;
+    top: 0;
+    right: 0;
     background-color: var(--blue);
     position: absolute;
     right: 0;

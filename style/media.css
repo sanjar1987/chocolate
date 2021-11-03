@@ -76,6 +76,9 @@
 }
 
 @media(max-width:991px) {
+    body{
+        overflow-x: hidden;
+    }
     .milky_main {
         font-size: 100px;
         line-height: 180px;
@@ -392,13 +395,7 @@
         margin-top: 50px;
     }
 
-    .dots {
-        height: 6px;
-        width: 6px;
-        border-radius: 50%;
-        margin-right: 8px;
-        background: #CCCCCC;
-    }
+    
 
     .products_box_bottom {
         padding: 10px;
@@ -549,13 +546,6 @@
         margin-top: 50px;
     }
 
-    .dots {
-        height: 6px;
-        width: 6px;
-        border-radius: 50%;
-        margin-right: 8px;
-        background: #CCCCCC;
-    }
 
     .topic {
         margin-bottom: 10px;
@@ -722,13 +712,7 @@
         height: 340px;
     }
 
-    .dots {
-        height: 6px;
-        width: 6px;
-        border-radius: 50%;
-        margin-right: 8px;
-        background: #CCCCCC;
-    }
+    
 
     .topic {
         margin-bottom: 3px;
