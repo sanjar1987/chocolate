@@ -56,10 +56,10 @@ p {
 
 .blue {
     height: 970px;
-    width: 100%;
+    width: 50%;
     background-color: var(--blue);
     position: absolute;
-    left: 43%;
+    right: 0;
     z-index: -1;
 }
 
@@ -149,7 +149,7 @@ p {
 }
 
 .title:hover {
-    border: 2px solid #2F80ED;
+    border: 2px solid var(--blue);
     background-color: white;
     color: #B0B0B0;
 }

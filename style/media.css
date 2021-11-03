@@ -210,12 +210,18 @@
     }
 
     .milky_texts {
-        opacity: 0;
+        
     }
 
     .footer {
         margin-top: 50px;
         height: 200px;
+    }
+    .phone{
+        display: none;
+    }
+    .milky_list{
+        display: none;
     }
 }
 
@@ -735,4 +741,5 @@
         font-size: 13px;
         line-height: none;
     }
+
 }
